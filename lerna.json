@@ -1,0 +1,15 @@
+{
+  "packages": [
+  ],
+  "version": "independent",
+  "command": {
+    "publish": {
+      "verifyAccess": false,
+      "ignoreChanges": [
+        "**/__tests__/**",
+        "**/*.test.tsx?",
+        "**/*.md"
+      ]
+    }
+  }
+}

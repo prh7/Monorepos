@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "new-package": "node scripts/new-package.js",
+    "bulk-exec": "node scripts/bulk-exec.js",
+    "bulk-install": "lerna bootstrap --ci",
+    "bulk-publish": "lerna publish from-package --registry --yes"
+  },
+  "devDependencies": {
+    "@lerna/publish": "^3.6.0",
+    "chalk": "^2.4.1",
+    "cli-spinner": "^0.2.8",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.0",
+    "lerna": "^3.6.0",
+    "shx": "^0.3.2"
+  }
+}

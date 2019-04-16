@@ -1,0 +1,25 @@
+{
+  "name": "package-template-redux-module",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/main/index.js",
+  "module": "dist/module/index.js",
+  "types": "dist/main/index.d.ts",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.0.0",
+    "@types/react-dom": "^16.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.x",
+    "reselect": "^3.0.0",
+    "typescript": "^3.0.0"
+  },
+  "peerDependencies": {
+    "redux": "^4.0.0",
+    "redux-saga": "^0.x",
+    "reselect": "^3.0.0"
+  }
+}

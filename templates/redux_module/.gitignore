@@ -1,0 +1,11 @@
+node_modules/
+.vs/
+.vscode/
+build/
+cache/
+coverage/
+dist/
+lib/
+.DS_Store
+*.log
+src/config.json
