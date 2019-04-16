@@ -1,0 +1,11 @@
+node_modules/
+.vscode/
+build/
+cache/
+lib/
+dist/
+styleguide/
+cache/
+.DS_Store
+*.log
+coverage
